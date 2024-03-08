@@ -1,6 +1,6 @@
 # Multitask Regression for Mood Disorders with Physiological Data from Wearable Devices 
 
-This codebase was jointly developed by [Filippo Corponi](https://github.com/FilippoCMC) and [Bryan M. Li](https://github.com/bryanlimy). It is part of the paper ''Automated mood disorder symptoms monitoring from multivariate time-series sensory data: Getting the full picture beyond a single number''. If you find this code or any of the ideas in the paper useful, please consider starring this repository and citing:
+This codebase was jointly developed by [Filippo Corponi](https://github.com/FilippoCMC) and [Bryan M. Li](https://github.com/bryanlimy). It is part of the paper "[Automated mood disorder symptoms monitoring from multivariate time-series sensory data: Getting the full picture beyond a single number](https://www.medrxiv.org/content/10.1101/2023.03.25.23287744v1)". If you find this code or any of the ideas in the paper useful, please consider starring this repository and citing:
 
 ```buildoutcfg
 @article{corponi2023automated,
@@ -28,7 +28,7 @@ This codebase was jointly developed by [Filippo Corponi](https://github.com/Fili
   ```
 
 ## Data
-- [dataset/README.md](dataset/README.md) details the structure of the dataset.
+- [data/README.md](data/README.md) details the structure of the dataset.
 - Preprocess dataset. In the present work, time alignment was fixed to 0 `--time_alignment 0`, whereas window length was explored in powers of 2 (ranging from 2<sup>2</sup> to 2<sup>10</sup>). Below is an example command for with `--segment_length 64`. Please note that all the datasets corresponding to the different window lengths to be explored during tuning should be created in advance.
   ```bash
   python preprocess_ds.py --segment_length 64 --time_alignment 0 --output_dir data/preprocessed/ta0_sl64 --overwrite
