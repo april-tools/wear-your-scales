@@ -1,4 +1,4 @@
-# Multitask Regression for Mood Disorders with Physiological Data from Wearable Devices 
+# Automated mood disorder symptoms monitoring from multivariate time-series sensory data: Getting the full picture beyond a single number
 
 This codebase was jointly developed by [Filippo Corponi](https://github.com/FilippoCMC) and [Bryan M. Li](https://github.com/bryanlimy). It is part of the paper "[Automated mood disorder symptoms monitoring from multivariate time-series sensory data: Getting the full picture beyond a single number](https://www.medrxiv.org/content/10.1101/2023.03.25.23287744v1)". If you find this code or any of the ideas in the paper useful, please consider starring this repository and citing:
 
