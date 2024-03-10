@@ -43,13 +43,12 @@ def preprocess_session(args, session_id: int, clinical_info: pd.DataFrame):
     if not num_segments:
         raise ValueError(f"Session {session_id} has no valid segments.")
 
-    # TODO put back
-    # preprocessing.extract_features(
-    #     args,
-    #     session_data=session_data,
-    #     num_segments=num_segments,
-    #     unix_t0=session_info["unix_t0"],
-    # )
+    preprocessing.extract_features(
+        args,
+        session_data=session_data,
+        num_segments=num_segments,
+        unix_t0=session_info["unix_t0"],
+    )
 
     session_output_dir = os.path.join(args.output_dir, str(session_id))
     if not os.path.isdir(session_output_dir):
