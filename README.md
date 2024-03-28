@@ -3,13 +3,15 @@
 This codebase was jointly developed by [Filippo Corponi](https://github.com/FilippoCMC) and [Bryan M. Li](https://github.com/bryanlimy). It is part of the paper "[Automated mood disorder symptoms monitoring from multivariate time-series sensory data: Getting the full picture beyond a single number](https://www.nature.com/articles/s41398-024-02876-1)", published in Nature Translational Psychiatry. If you find this code or any of the ideas in the paper useful, please consider starring this repository and citing:
 
 ```bibtex
-@article{corponi2023automated,
+@article{corponi2024automated,
   title={Automated mood disorder symptoms monitoring from multivariate time-series sensory data: Getting the full picture beyond a single number},
-  author={Corponi, Filippo and Li, Bryan M and Anmella, Gerard and Mas, Ariadna and Sanabra, Miriam and Vieta, Eduard and INTREPIBD Group and Lawrie, Stephen M and Whalley, Heather C and Hidalgo-Mazzei, Diego and others},
-  journal={medRxiv},
-  pages={2023--03},
-  year={2023},
-  publisher={Cold Spring Harbor Laboratory Press}
+  author={Corponi, Filippo and Li, Bryan M and Anmella, Gerard and Mas, Ariadna and Pacchiarotti, Isabella and Valent{\'\i}, Marc and Grande, Iria and Benabarre, Antoni and Garriga, Marina and Vieta, Eduard and others},
+  journal={Translational Psychiatry},
+  volume={14},
+  number={1},
+  pages={161},
+  year={2024},
+  publisher={Nature Publishing Group UK London}
 }
 ```
 
